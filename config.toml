@@ -1,0 +1,16 @@
+baseURL = 'https://artinessa.me/'
+
+[[menu.main]]
+  name = "Главная"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Статьи"
+  url = "/posts"
+  weight = 2
+
+[[menu.main]]
+  name = "Обо мне"
+  url = "/about"
+  weight = 4
