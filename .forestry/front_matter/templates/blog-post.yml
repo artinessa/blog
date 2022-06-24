@@ -9,6 +9,7 @@ fields:
   name: date
   label: date
 pages:
+- content/posts/vs.-1.md
 - content/posts/vs..md
 - content/posts/вопрос-себе-в-будущем.md
 - content/posts/неосознанное-использование.md
