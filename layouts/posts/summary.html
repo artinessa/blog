@@ -1,12 +1,14 @@
 <article class="post">
-    <header>
-        <h2><a href='{{ .Permalink }}'> {{ .Title }}</a></h2>
-        <div class="post-meta">{{ .Date.Format "Mon, Jan 2, 2006" }}</div>
-    </header>
-    {{ .Summary }}
+    <h2 class="post-title"><a href="{{ .Permalink }}"> {{ .Title }}</a></h2>
+    <span class="post-meta">{{ .Date.Format "Jan 2, 2006" }}</span>
+    <p class="post-summary">
+        {{ .Summary }}
+    </p>
     <footer>
-        <a href='{{ .Permalink }}'>
-            <nobr>Read more →</nobr>
+        {{ if .Truncated }}
+        <a href="{{ .Permalink }}">
+            <nobr>Read more ...</nobr>
         </a>
+        {{ end }}
     </footer>
 </article>

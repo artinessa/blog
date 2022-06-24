@@ -1,5 +1,5 @@
 start:
-	hugo server -D
+	hugo server --disableFastRender
 
 build:
 	hugo

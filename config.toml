@@ -1,5 +1,11 @@
 baseURL = 'https://artinessa.me/'
 
+languageCode = 'ru-RU'
+defaultContentLanguage = "ru"
+defaultContentLang = "ru"
+
+summaryLength = 30
+
 [[menu.main]]
   name = "Главная"
   url = "/"

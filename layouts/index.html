@@ -1,7 +1,7 @@
 {{ define "main" }}
-<main aria-role="main">
+<main aria-role="main" class="main">
   <header class="homepage-header">
-    <h1>{{.Title}}</h1>
+    <h1 class="title">{{.Title}}</h1>
     {{ with .Params.subtitle }}
     <span class="subtitle">{{.}}</span>
     {{ end }}
@@ -10,7 +10,7 @@
     <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
     {{.Content}}
   </div>
-  <div>
+  <div class="homepage-posts">
     {{ range where site.RegularPages "Type" "posts" }}
       {{ .Render "summary"}}
     {{ end }}

@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+    @apply bg-gradient-to-r from-purple-500 to-pink-500;
+    @apply text-4xl sm:text-6xl tracking-wider uppercase;
+}
+
+h2 {
+    @apply bg-gradient-to-r from-violet-500 to-blue-500;
+    @apply text-xl sm:text-2xl tracking-wide uppercase;
+}
+
+h1, h2 {
+    font-family: 'Rubik Moonrocks', cursive;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main {
+    @apply mx-auto my-0 p-4;
+    @apply w-full;
+    @apply prose prose-slate prose sm:prose-lg md:prose-xl lg:prose-2xl
+}
