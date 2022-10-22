@@ -2,24 +2,28 @@
 label: Blog post
 hide_body: false
 fields:
-- type: text
-  name: title
-  label: title
-- type: datetime
-  name: date
-  label: date
+    - type: text
+      name: title
+      label: title
+    - type: datetime
+      name: date
+      label: date
 pages:
-- content/posts/..md
-- content/posts/..md-1
-- content/posts/vs.-1.md
-- content/posts/vs..md
-- content/posts/Диалектика-вины.md
-- content/posts/вопрос-себе-в-будущем.md
-- content/posts/глубинное-чувство-вины.md
-- content/posts/идентичность.md
-- content/posts/неосознанное-использование.md
-- content/posts/перестройка.md
-- content/posts/потребность.md
-- content/posts/про-зависть.md
-- content/posts/рефлексия-ментализация-ошибки-восприятия.md
-- content/posts/тема-блога.md
+    - content/posts/возвращение.md
+    - content/posts/вопрос-себе-в-будущем.md
+    - content/posts/глубинное-чувство-вины.md
+    - content/posts/диалектика-вины.md
+    - content/posts/идентичность.md
+    - content/posts/кодирование-информации.md
+    - content/posts/комическое-vs-конфликты.md
+    - content/posts/неосознанное-использование.md
+    - content/posts/перестройка.md
+    - content/posts/потребность.md
+    - content/posts/приветствие-в-формате-дневника.md
+    - content/posts/про-важность.md
+    - content/posts/про-зависть.md
+    - content/posts/разность-восприятия.md
+    - content/posts/рефлексия-ментализация-ошибки-восприятия.md
+    - content/posts/тема-блога.md
+    - content/posts/экстраверсия-и-интроверсия.md
+    - content/posts/cконструированные-референции.md
