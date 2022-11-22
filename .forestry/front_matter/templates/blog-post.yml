@@ -9,6 +9,7 @@ fields:
   name: date
   label: date
 pages:
+- content/posts/..md
 - content/posts/cконструированные-референции.md
 - content/posts/Диалектика-вины.md
 - content/posts/возвращение.md
