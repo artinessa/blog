@@ -9,7 +9,6 @@ fields:
   name: date
   label: date
 pages:
-- content/posts/..md
 - content/posts/cконструированные-референции.md
 - content/posts/Диалектика-вины.md
 - content/posts/возвращение.md
@@ -17,6 +16,7 @@ pages:
 - content/posts/выбор-и-свобода-воли.md
 - content/posts/глубинное-чувство-вины.md
 - content/posts/джон-кехо-подсознание-может-все.md
+- content/posts/желание-общения-и-побег-от-него.md
 - content/posts/идентичность.md
 - content/posts/итог-дискуссии-почему-человек-прекратил-развиваться.md
 - content/posts/кодирование-информации.md
