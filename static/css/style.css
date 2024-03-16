@@ -2134,7 +2134,7 @@ h1, h2 {
   }
 }
 
-.post-summary {
+.content, .post-summary {
   text-align: justify;
 }
 
