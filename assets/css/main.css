@@ -25,3 +25,7 @@ h1, h2 {
     @apply w-full;
     @apply prose prose-slate sm:prose-lg md:prose-xl lg:prose-2xl
 }
+
+.post-summary {
+    text-align: justify;
+}
